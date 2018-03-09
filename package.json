@@ -1,0 +1,21 @@
+{
+  "name": "marketcheck_cars_api",
+  "version": "1.0.3",
+  "description": "bAccess_the_New_Used_and_Certified_cars_inventories_for_all_Car_Dealers_in_US_b_brThe_data_is_sourced_from_online_listings_by_over_44000_Car_dealers_in_US__At_any_time_there_are_about_6_2M_searchable_listings__about_1_9M_unique_VINs_for_Used__Certified_cars_and_about_6_6M__about_3_9M_unique_VINs_New_Car_listings_from_all_over_US__We_use_this_API_at_the_back_for_our_website_a_hrefhttpswww_marketcheck_com_target_blankwww_marketcheck_coma_and_our_Android_and_iOS_mobile_apps_too_brh5_Few_useful_links__h5ulliA_quick_view_of_the_API_and_the_use_cases_is_depicated_a_hrefhttpsportals_marketcheck_commcapi_target_blankherealiliThe_Postman_collection_with_various_usages_of_the_API_is_shared_here_httpswww_getpostman_comcollections2752684ff636cdd7bac2liul",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
